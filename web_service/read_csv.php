@@ -1,7 +1,7 @@
 <?php
 // https://gist.github.com/jaywilliams/385876
-define('csv_path', "/users/josef/Documents/inv_revamp/web_service/");
-$csv = csv_path . "Workbook1.csv";
+define('csv_path', "../assets/");
+$csv = csv_path . "test-header.csv";
 
 function csv_to_array($filename='', $delimiter=',') {
 	if (!file_exists($filename) || !is_readable($filename))
