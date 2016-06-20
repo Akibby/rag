@@ -4,12 +4,12 @@ include("csv_to_array.php");
 // define connection parameters
 $valkyrAddress = "192.168.1.101";
 $valkyrUsername = "odin";
-$valkyrPassword = "admin";	
+$valkyrPassword = "admin";
 $valkyrDatabase = "ragnarok";
 $connect = mysqli_connect($valkyrAddress, $valkyrUsername, $valkyrPassword, $valkyrDatabase) or die("Error " . mysqli_error($connect));
 
 // path where CSV is stored
-define('CSV_PATH','/users/josef/Documents/inv_revamp/web_service/');
+define('CSV_PATH','/../assets/');
 
 // name of CSV
 $csv_file = CSV_PATH . "Workbook1.csv";
@@ -29,7 +29,7 @@ function csv_to_db($filename='', $dbconnection='', $delimiter=',') {
 		}
 		fclose($handle);
 	}
-	
+
 	// select lawson columns from associative array into array
 	$idlawson = array_column($data, "idLawsonRequisitionNo");
 	if (!$idlawson) {
@@ -77,7 +77,7 @@ function test($filename='', $dbconnection='', $delimiter=',') {
 		}
 		fclose($handle);
 	}
-	
+
 	// select po info from data into associative array
 		$po = array();
 		$po += array_slice($data[0],1,6);
@@ -104,7 +104,7 @@ function test($filename='', $dbconnection='', $delimiter=',') {
 				// find a way to catch and display all errors...
 			 	echo "[PO] Error occurred: " . mysqli_error($dbconnection) . PHP_EOL;
 			}
-	
+
 	// return $data;
 }
 
