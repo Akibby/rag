@@ -1,0 +1,9 @@
+idLawsonRequisitionNo,idPurchaseOrder,poStatus,poNickname,poQuoteNo,poOrderDate,poReceivedDate,idDevice,devSerial,devAssetTag,devDescription,devType,devClass,devManufacturer,devManufacturerPartNo,devModel,devWarrantyDurationYears,devWarrantyExp,devServiceTag,devMonitorSizeInches,devNotes,scanTimeIn
+12345678,2047-0-FMI,In Use,May 2016 Monitor Shipment,B04504171,1/21/16,2/14/16,1,MG23432,123456,"Lenovo M93P Tiny Desktop Computer. 4GB RAM, 320GB HDD",Computers,Tiny,Lenovo,MJLQ2LL/A,M92P,3,,,,required for lake,10:30am
+98765432,2069-0-FMI,In Use,June VDI,B04504171,5/6/16,6/7/16,2,00020394857-gfg-2343,234567,Dell Latitude E3200 Notebook Computer,Computers,Notebook,Dell,RE2-00001-AX,Latitude E3200,3,,GNY765,,testing IS,10:40am
+55555555,2000-0-FMI,Stock,300 Laptops for Lake,B04504171,12/12/15,2/16/16,3,FD2342,345678,Lenovo T540P Notebook Computer,Computers,Notebook,Lenovo,USB2DVI,T540p,3,,,,lake stock,1:00pm
+66666666,1500-0-FMI,Stock,Wyse Xenith 3 Pro's,GO04857,4/30/15,5/5/15,4,9JCDM0023431,456789,Wyse Virtual Desktop Client,Computers,VDI,Wyse Technologies,10AB002VUS,Cx0,3,,,,lake stock,4:00pm
+77777777,3023-0-FMI,In Use,Other stuff we need,FO55555,3/1/15,6/2/15,5,435FTR,567890,HP Z800 Workstation Computer,Computers,Workstation,HP,609CMAR1US,Z800,3,,,,fp#1234345,5:00pm
+88888888,3000-0-FMI,Stock,Hard drives,40404040,9/4/16,9/30/16,6,V002342,678901,"Lenovo 24"" Widescreen Monitor.",Monitors and Displays,Monitor,Lenovo,LO123424,T2454P,3,,,24,epic project,9:00am
+99999999,3021-0-FMI,In Use,Marketing Refresh,Y23451O,6/6/16,7/1/16,7,12343e,789012,Honeywell SL22 iPhone 5/5s/6/6s scanning sled.,Peripheral,Handheld,Honeywell,9PY-00001,SL22,1,,,,epic new devices,7:30am
+11111111,3033-0-FMI,Stock,"Cables, etc.",MNE5430,3/2/14,5/4/14,8,142REW14Q,890123,Microsoft Surface Pro 4 Notebook Computer. ,Computers,Notebook,Microsoft,Q5N-00001,Surface Pro 4,3,,,,Tommy Verbal,6:00am

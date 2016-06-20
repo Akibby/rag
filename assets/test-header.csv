@@ -1,9 +1,0 @@
-idDevice,devSerial,devAssetTag,devType,devClass,devManufacturer,devWarrantyDuration,devWarrantyExpiration,devServiceTag,devMonitorSizeInches,devNotes
-101,MG23432,123456,Computers,Tiny,Lenovo,3,6/6/16,,,required for lake
-102,00020394857-gfg-2343,234567,Computers,Notebook,Dell,3,5/4/13,GNY765,,testing IS
-103,FD2342,345678,Computers,Notebook,Lenovo,3,3/4/12,,,lake stock
-104,9JCDM0023431,456789,Computers,VDI,Wyse Technologies,3,6/7/16,,,lake stock
-105,435FTR,567890,Computers,Workstation,HP,3,9/20/17,,,fp#1234345
-106,V002342,678901,Monitors and Displays,Monitor,Lenovo,3,9/9/19,,24,epic project
-107,12343e,789012,Peripheral,Handheld,Honeywell,1,4/20/18,,,epic new devices
-108,142REW14Q,890123,Computers,Notebook,Microsoft,3,3/17/99,,,Tommy Verbal

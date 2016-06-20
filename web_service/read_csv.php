@@ -1,7 +1,7 @@
 <?php
 // https://gist.github.com/jaywilliams/385876
 define('csv_path', "../assets/");
-$csv = csv_path . "test-header.csv";
+$csv = csv_path . "test.csv";
 
 function csv_to_array($filename='', $delimiter=',') {
 	if (!file_exists($filename) || !is_readable($filename))
