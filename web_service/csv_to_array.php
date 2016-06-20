@@ -17,5 +17,5 @@ function csv_to_array($filename='', $delimiter=',') {
 	}
 	return $data;
 }
-print_r(csv_to_array($csv_file));
+// print_r(csv_to_array($csv_file));
 ?>
