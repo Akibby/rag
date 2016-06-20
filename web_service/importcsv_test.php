@@ -12,7 +12,7 @@ $connect = mysqli_connect($valkyrAddress, $valkyrUsername, $valkyrPassword, $val
 define('CSV_PATH','/../assets/');
 
 // name of CSV
-$csv_file = CSV_PATH . "Workbook1.csv";
+$csv_file = CSV_PATH . "test.csv";
 
 function csv_to_db($filename='', $dbconnection='', $delimiter=',') {
 	if (!file_exists($filename) || !is_readable($filename))
